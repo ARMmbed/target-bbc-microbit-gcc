@@ -1,0 +1,122 @@
+{
+  "name": "bbc-microbit-gcc",
+  "version": "0.0.0",
+  "inherits": {
+    "nordic-nrf51822-16k-gcc": "*"
+  },
+  "description": "Official mbed build target for the BBC micro:bit chip.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "gcc",
+    "mbed-official"
+  ],
+  "similarTo": [
+    "mkit"
+  ],
+  "config": {
+    "hardware": {
+      "clocks": {
+        "nrf": {
+          "lfclk_rc": true
+        }
+      },
+      "pins": {
+        "P0_0": "p0",
+        "P0_1": "p1",
+        "P0_2": "p2",
+        "P0_3": "p3",
+        "P0_4": "p4",
+        "P0_5": "p5",
+        "P0_6": "p6",
+        "P0_7": "p7",
+
+        "P0_8": "p8",
+        "P0_9": "p9",
+        "P0_10": "p10",
+        "P0_11": "p11",
+        "P0_12": "p12",
+        "P0_13": "p13",
+        "P0_14": "p14",
+        "P0_15": "p15",
+
+        "P0_16": "p16",
+        "P0_17": "p17",
+        "P0_18": "p18",
+        "P0_19": "p19",
+        "P0_20": "p20",
+        "P0_21": "p21",
+        "P0_22": "p22",
+        "P0_23": "p23",
+
+        "P0_24": "p24",
+        "P0_25": "p25",
+        "P0_26": "p26",
+        "P0_27": "p27",
+        "P0_28": "p28",
+        "P0_29": "p29",
+        "P0_30": "p30",
+
+        "PAD3": "p1",
+        "PAD2": "p2",
+        "PAD1": "p3",
+
+
+        "COL1": "p4",
+        "COL2": "p5",
+        "COL3": "p6",
+        "COL4": "p7",
+        "COL5": "p8",
+        "COL6": "p9",
+        "COL7": "p10",
+        "COL8": "p11",
+        "COL9": "p12",
+
+        "ROW1": "p13",
+        "ROW2": "p14",
+        "ROW3": "p15",
+
+        "BUTTON_A": "p17",
+
+        "TGT_NRESET": "p19",
+
+        "MOSI": "p21",
+
+        "MISO": "p22",
+
+        "SCK": "p23",
+
+        "TGT_TX": "p24",
+        "TGT_RX": "p25",
+
+        "BUTTON_B": "p26",
+
+        "ACCEL_INT2": "p27",
+        "ACCEL_INT1": "p28",
+
+        "MAG_INT1": "p29",
+
+        "RX_PIN_NUMBER": "TGT_RX",
+        "TX_PIN_NUMBER": "TGT_TX",
+        "CTS_PIN_NUMBER": "31",
+        "RTS_PIN_NUMBER": "31",
+
+        "USBTX": "TX_PIN_NUMBER",
+        "USBRX": "RX_PIN_NUMBER",
+
+        "LED1": "PAD1",
+        "LED2": "PAD2",
+        "LED3": "PAD3",
+        "LED4": "P0_16",
+
+        "I2C_SDA0": "p30",
+
+        "I2C_SCL0": "p0"
+      }
+    }
+  }
+}
