@@ -1,6 +1,6 @@
 {
   "name": "bbc-microbit-gcc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "inherits": {
     "nordic-nrf51822-16k-gcc": "*"
   },
