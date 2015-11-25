@@ -2,7 +2,7 @@
   "name": "bbc-microbit-gcc",
   "version": "0.0.5",
   "inherits": {
-    "nordic-nrf51822-16k-gcc": "*"
+    "nordic-nrf51822-gcc": "^0.0.1"
   },
   "description": "Official mbed build target for the BBC micro:bit chip.",
   "licenses": [
@@ -19,6 +19,14 @@
     "mkit"
   ],
   "config": {
+    "nrf51822": {
+        "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
     "hardware": {
       "clocks": {
         "nrf": {
