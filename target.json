@@ -1,6 +1,6 @@
 {
   "name": "bbc-microbit-gcc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "inherits": {
     "nordic-nrf51822-gcc": "^0.0.1"
   },
@@ -20,7 +20,7 @@
   ],
   "config": {
     "nrf51822": {
-        "ram_size": "16K"
+      "ram_size": "16K"
     },
     "image": {
       "heap": {
